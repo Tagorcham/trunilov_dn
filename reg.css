@@ -1,0 +1,116 @@
+*{
+    font-family: 'circe';
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'circe';
+    src: url(./circe.ttf);
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'circe-bold';
+    src: url(./circe-bold.ttf) format('truetype');
+    font-style: normal;
+    font-weight: 700;
+}
+
+.page1{
+    width: 1920px;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(./first-screen.png);
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-color: grey;
+}
+.p_page1{
+    width: 1046px;
+    height: 750px;
+    font-size: 54px;
+    color: #6e6e6e;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    font-weight: bold;   
+}
+.nav{
+    width: 416px;
+    height: 572px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    flex-direction: column;
+    background-color: #333333;
+}
+.cont-close{
+    width: 350px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.reg{
+    width: 296px;
+    height: 451.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.reg input{
+    background-color: #333333;
+    border-style: groove;
+    border-width: 2px;
+    border-color: rgba(255, 255, 255, 0.2);
+    width: 281px;
+    height: 52px;
+    color: #ffffff;
+    font-size: 16px;
+    padding-left: 15px;
+}
+.reg p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.reg input::placeholder{
+    font-size: 16px;
+    color: white;
+}
+.logo{
+    width: 80px;
+    height: 46px;
+}
+.bot_inpts{
+    width: 296px;
+    height: 52px;
+    display: flex;
+    justify-content: space-between;
+}
+.bot_inpts input{
+    background-color: #333333;
+    border-style: groove;
+    border-width: 2px;
+    border-color: rgba(255, 255, 255, 0.2);
+    width: 121px;
+    height: 52px;
+}
+.reg button{
+    width: 150px;
+    height: 42px;
+    background-color: #B59571;
+    border-style: none;
+}
+.reg button a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+}
